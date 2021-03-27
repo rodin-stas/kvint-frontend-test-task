@@ -1,0 +1,30 @@
+// switch
+.ant-switch {
+  height: 19px;
+  background-color: #b5b5b5;
+}
+.ant-switch-handle {
+  top: -4px;
+  left: -1px;
+  width: 26px;
+  height: 26px;
+}
+.ant-switch-handle::before {
+  background-color: #919191;
+  border-radius: 16px;
+}
+
+// switch checed
+.ant-switch-checked {
+  background-color: #0f213c;
+}
+
+.ant-switch-checked .ant-switch-handle {
+  left: calc(100% - 22px);
+}
+
+.ant-switch-checked {
+  .ant-switch-handle::before {
+    background-color: #01c8f8;
+  }
+}
